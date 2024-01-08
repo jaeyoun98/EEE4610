@@ -54,6 +54,7 @@ docker build -t accel-sim/ubuntu-18.04_3.8_11.3.0_1.12.1 .
 docker run -it --name=jykim --gpus all --restart=unless-stopped -v /home/jykim/share:/EEE4610/share accel-sim/ubuntu-18.04_3.8_11.3.0_1.12.1 /bin/bash
 ```
 컨테이너 환경과 로컬 환경을 mount할 수 있다 (파일 공유).
+옵션에 따라 다양한 설정 가능.
 
 # Attach to container
 ```
