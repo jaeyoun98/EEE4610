@@ -1,4 +1,5 @@
-# Generating Docker image (dockerfile code)
+# Generating Docker Image (dockerfile code)
+Accel-sim environment setting (Ubuntu-18.04, CUDA11.3.0, python3.8, PyTorch1.12.1)
 ```
 # Docker image: ubuntu:18.04
 FROM accelsim/ubuntu-18.04_cuda-11
